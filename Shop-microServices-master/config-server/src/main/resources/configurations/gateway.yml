@@ -1,0 +1,39 @@
+eureka:
+  client:
+    register-with-eureka: false
+
+server:
+  port: 8333
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: products
+          uri: http://localhost:8070
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - AuthenticationFilter
+
+
+        - id: cart
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/cart/**
+          filters:
+            - AuthenticationFilter
+
+        - id: order
+          uri: http://localhost:8050
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - AuthenticationFilter
+
+        - id: security2
+          uri: http://localhost:8022
+          predicates:
+            - Path=/api/security/**

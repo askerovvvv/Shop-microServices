@@ -1,0 +1,6 @@
+
+„
+java:S14885"bImmediately return this expression instead of assigning it to the temporary variable "totalPrice".(ÛËÎıÿÿÿÿ8å¿ÿ¥1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÿ­«Á8ï¿ÿ¥1
+L
+java:S1481"/Remove this unused "totalPrice" local variable.(•ª²È8ğ¿ÿ¥1

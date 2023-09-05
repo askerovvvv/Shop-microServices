@@ -1,0 +1,8 @@
+
+]
+java:S1854
+"@Remove this useless assignment to local variable "responseBody".(ÖÎü“8ŸˆÀù¥1
+N
+java:S1481
+"1Remove this unused "responseBody" local variable.(ÖÎü“8¡ˆÀù¥1
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8¤ˆÀù¥1

@@ -1,0 +1,30 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8022
+spring:
+  application:
+    name: security2
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/security
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQlDialect
+    database: postgresql
+
+jwt:
+  secret: f065f63c91e35cf6e5bdbca7df3bfea34ff06031082f55f662621c63d0e427da
+  lifetime: 30m
+
+application:
+  config:
+    carts-url: http://localhost:8090/api/cart

@@ -1,0 +1,23 @@
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Shop-microServices-master/cart/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/order/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/products/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/security/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/security2/pom.xml" />
+        <option value="$PROJECT_DIR$/Shop-microServices-master/gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

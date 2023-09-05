@@ -1,0 +1,5 @@
+
+n
+java:S6204!"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(×—ÑS8«ýðÑ£1
+l
+java:S1128"ORemove this unused import 'org.springframework.security.core.GrantedAuthority'.(½Á±ÿ8”¶ˆÔ£1
