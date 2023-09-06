@@ -31,6 +31,7 @@
 11) webflux
 12) openfeign
 13) Spring boot
+14) Hibernate envers
 
 В проекте было много коммитов, но последний коммит сделан из другого компа(git push --force origin ...) изза этого пропали коммиты
 Нельзя было сделать pullrequest(есть причины)
